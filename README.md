@@ -1,0 +1,2 @@
+# simple.vimrc
+simple vimrc
