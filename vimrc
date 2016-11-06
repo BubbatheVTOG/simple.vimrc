@@ -18,7 +18,6 @@
 
 "**USER DEFINED CONFIGS** 
 set background=dark	" Use text colors that look good on a dark background. 
-set autoindent		" Auto indent
 set autoindent		" Auto intent to the same col when on new line.
 set smarttab		" Auto insert tabs spaces for curly braces. 
 set mouse=a 		" Enables mouse.
