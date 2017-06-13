@@ -20,3 +20,5 @@ set number		" Enable line numbering.
 set nowrap		" Disable line wrapping cuz we do it live!
 filetype plugin indent on	" Syntax for different file types. Plus auto indent for that file type. 
 syntax on		" Syntax on bitch. 
+autocmd BufWinLeave *.* mkview		" Save code folds on exit.
+autocmd BufWinEnter *.* silent loadview	" Create code folds from save.
