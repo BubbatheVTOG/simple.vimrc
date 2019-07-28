@@ -2,6 +2,11 @@
 " GENERAL CONFIGURATION
 " =============================================================================
 
+" Environmental Settings
+" -----------------------------------------------------------------------------
+set encoding=utf8
+set t_Co=256
+
 " Genearal Settings
 " -----------------------------------------------------------------------------
 filetype plugin indent on		" Syntax for different file types. Plus autoindent for that file type.
